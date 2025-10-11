@@ -1,0 +1,9 @@
+void main(){
+  int distance = 25;
+  int speed = 40;
+
+  double Hour = distance / speed;
+  double Min = Hour * 60;
+
+  print("Time to reach : $Min minitues");
+}
