@@ -1,0 +1,14 @@
+import 'dart:io';
+
+void main(){
+  int a = int.parse(stdin.readLineSync()!);
+  int b = int.parse(stdin.readLineSync()!);
+
+  print("Before Swap, A : $a, B: $b");
+
+  int x = a;
+  a = b;
+  b = x;
+
+  print("After Swap, A : $a, B: $b");
+}
