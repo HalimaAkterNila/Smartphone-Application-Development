@@ -1,0 +1,10 @@
+void main(){
+  String s = " Le a ding u n i versit               y     ";
+  String ans = "";
+  for (int i = 0; i < s.length; i++){
+    if (s[i] != " "){
+      ans += s[i];
+    }
+  }
+  print(ans);
+}
