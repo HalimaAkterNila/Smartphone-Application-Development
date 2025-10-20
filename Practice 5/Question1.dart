@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main(){
-  File f = File('Practice 5/hello.txt');
-  f.writeAsStringSync("Fahmidur Rahman Nafi");
+  File f = File('hello.txt');
+  f.writeAsStringSync("Halima Akter Nila");
   print("Name written to hello.txt");
 }
